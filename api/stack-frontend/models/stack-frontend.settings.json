@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "stack_frontends",
   "info": {
-    "name": "Stack Frontend"
+    "name": "Stack Frontend",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -20,7 +21,7 @@
     },
     "link": {
       "type": "string",
-      "required": true
+      "required": false
     }
   }
 }

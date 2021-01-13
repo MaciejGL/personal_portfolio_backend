@@ -17,7 +17,7 @@
     },
     "link": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "iconClass": {
       "type": "string",

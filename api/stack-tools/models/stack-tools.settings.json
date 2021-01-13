@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "stack_tools",
   "info": {
-    "name": "Stack Tools"
+    "name": "Stack Tools",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -16,7 +17,7 @@
     },
     "link": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "iconClass": {
       "type": "string",
