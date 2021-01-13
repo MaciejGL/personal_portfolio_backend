@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "stack_frontends",
+  "info": {
+    "name": "Stack Frontend"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "iconClass": {
+      "type": "string",
+      "required": true
+    },
+    "link": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

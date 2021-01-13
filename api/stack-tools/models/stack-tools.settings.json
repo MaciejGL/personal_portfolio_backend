@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "stack_tools",
+  "info": {
+    "name": "Stack Tools"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "link": {
+      "type": "string",
+      "required": true
+    },
+    "iconClass": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
