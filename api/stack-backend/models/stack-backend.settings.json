@@ -21,7 +21,16 @@
     },
     "iconClass": {
       "type": "string",
-      "required": true
+      "required": false
+    },
+    "img": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
     }
   }
 }
