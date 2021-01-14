@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/stack-tools",
+      "handler": "stack-tools.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/stack-tools/count",
+      "handler": "stack-tools.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/stack-tools/:id",
+      "handler": "stack-tools.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/stack-tools",
+      "handler": "stack-tools.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/stack-tools/:id",
+      "handler": "stack-tools.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/stack-tools/:id",
+      "handler": "stack-tools.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/stack-backends",
+      "handler": "stack-backend.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/stack-backends/count",
+      "handler": "stack-backend.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/stack-backends/:id",
+      "handler": "stack-backend.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/stack-backends",
+      "handler": "stack-backend.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/stack-backends/:id",
+      "handler": "stack-backend.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/stack-backends/:id",
+      "handler": "stack-backend.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
