@@ -85,9 +85,9 @@
       "type": "text",
       "required": true
     },
-    "icon": {
-      "model": "icon",
-      "via": "projects"
+    "icons": {
+      "via": "projects",
+      "collection": "icon"
     }
   }
 }
