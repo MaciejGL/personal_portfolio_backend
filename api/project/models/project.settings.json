@@ -84,10 +84,6 @@
     "stack_list": {
       "type": "text",
       "required": true
-    },
-    "icon": {
-      "via": "projects",
-      "model": "icon"
     }
   }
 }
