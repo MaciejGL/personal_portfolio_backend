@@ -63,10 +63,6 @@
     "Status": {
       "type": "string"
     },
-    "icon": {
-      "via": "projects",
-      "model": "icon"
-    },
     "image_full": {
       "model": "file",
       "via": "related",
@@ -88,6 +84,10 @@
     "stack_list": {
       "type": "text",
       "required": true
+    },
+    "icon": {
+      "via": "projects",
+      "model": "icon"
     }
   }
 }
