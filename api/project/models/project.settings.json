@@ -23,7 +23,7 @@
       "type": "richtext",
       "required": true
     },
-    "image": {
+    "image_card": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
@@ -55,6 +55,39 @@
     },
     "github_repository_backend": {
       "type": "string"
+    },
+    "Released": {
+      "type": "date",
+      "required": false
+    },
+    "Status": {
+      "type": "string"
+    },
+    "icon": {
+      "model": "icon",
+      "via": "projects"
+    },
+    "image_full": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true
+    },
+    "images_overview": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "stack_list": {
+      "type": "text",
+      "required": true
     }
   }
 }
