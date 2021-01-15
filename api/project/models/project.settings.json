@@ -64,8 +64,8 @@
       "type": "string"
     },
     "icon": {
-      "model": "icon",
-      "via": "projects"
+      "via": "projects",
+      "model": "icon"
     },
     "image_full": {
       "model": "file",
