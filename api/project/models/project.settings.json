@@ -49,14 +49,14 @@
       "plugin": "upload",
       "required": true
     },
-    "images_overview": {
-      "collection": "file",
+    "image_devices": {
+      "model": "file",
       "via": "related",
       "allowedTypes": [
         "images"
       ],
       "plugin": "upload",
-      "required": false
+      "required": true
     },
     "icon_main_tech": {
       "model": "file",
