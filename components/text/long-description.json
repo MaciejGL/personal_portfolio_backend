@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_text_long_descriptions",
+  "info": {
+    "name": "long_description",
+    "icon": "align-left"
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

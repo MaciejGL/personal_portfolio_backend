@@ -19,10 +19,6 @@
       "type": "text",
       "required": true
     },
-    "full_description": {
-      "type": "richtext",
-      "required": true
-    },
     "image_card": {
       "model": "file",
       "via": "related",
@@ -31,18 +27,6 @@
       ],
       "plugin": "upload",
       "required": true
-    },
-    "video": {
-      "collection": "file",
-      "via": "related",
-      "allowedTypes": [
-        "videos"
-      ],
-      "plugin": "upload",
-      "required": false
-    },
-    "extras": {
-      "type": "richtext"
     },
     "live_preview": {
       "type": "string"
@@ -54,13 +38,6 @@
       "type": "string"
     },
     "github_repository_backend": {
-      "type": "string"
-    },
-    "Released": {
-      "type": "date",
-      "required": false
-    },
-    "Status": {
       "type": "string"
     },
     "image_full": {
@@ -81,10 +58,6 @@
       "plugin": "upload",
       "required": false
     },
-    "stack_list": {
-      "type": "text",
-      "required": true
-    },
     "icon_main_tech": {
       "model": "file",
       "via": "related",
@@ -92,6 +65,18 @@
         "images"
       ],
       "plugin": "upload",
+      "required": true
+    },
+    "full_description": {
+      "type": "component",
+      "repeatable": true,
+      "component": "text.long-description",
+      "required": true
+    },
+    "stack": {
+      "type": "component",
+      "repeatable": true,
+      "component": "stack.stack",
       "required": true
     }
   }

@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_stack_stacks",
+  "info": {
+    "name": "Stack",
+    "icon": "code"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "icon": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}
