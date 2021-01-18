@@ -2,13 +2,14 @@
   "collectionName": "components_text_long_descriptions",
   "info": {
     "name": "long_description",
-    "icon": "align-left"
+    "icon": "align-left",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "description": {
       "type": "text",
-      "required": true
+      "required": false
     }
   }
 }
