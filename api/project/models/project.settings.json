@@ -78,6 +78,28 @@
       "repeatable": true,
       "component": "stack.stack",
       "required": true
+    },
+    "problemAndSolution": {
+      "type": "component",
+      "repeatable": true,
+      "component": "text.long-description",
+      "required": false
+    },
+    "stackExplanation": {
+      "type": "component",
+      "repeatable": true,
+      "component": "text.long-description",
+      "required": false
+    },
+    "production_date": {
+      "required": true,
+      "type": "date"
+    },
+    "thoughtsAndImprovements": {
+      "type": "component",
+      "repeatable": true,
+      "component": "text.long-description",
+      "required": false
     }
   }
 }
