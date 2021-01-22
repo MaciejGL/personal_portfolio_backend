@@ -47,7 +47,7 @@
         "images"
       ],
       "plugin": "upload",
-      "required": true
+      "required": false
     },
     "image_devices": {
       "model": "file",
@@ -56,7 +56,7 @@
         "images"
       ],
       "plugin": "upload",
-      "required": true
+      "required": false
     },
     "icon_main_tech": {
       "model": "file",
